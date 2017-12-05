@@ -21,7 +21,7 @@ option ( LUA_USE_RELATIVE_LOADLIB "Use modified loadlib.c with support for relat
 
 option ( LUA_COMPAT_5_1 "Enable backwards compatibility options with lua-5.1." ON )
 option ( LUA_COMPAT_5_2 "Enable backwards compatibility options with lua-5.2." ON )
-+option ( LUA_BUILD_EXECUTABLES "Enable Lua compiled and command prompt" ${BUILD_EXECUTABLES} )
+option ( LUA_BUILD_EXECUTABLES "Enable Lua compiled and command prompt" ${BUILD_EXECUTABLES} )
 
 #2DO: LUAI_* and LUAL_* settings, for now defaults are used.
 set ( LUA_DIRSEP "/" )
